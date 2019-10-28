@@ -148,6 +148,11 @@ customHeadersFooters
 \filename_suffix 0
 \color #faf0e6
 \end_branch
+\branch chapter-3
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -819,9 +824,19 @@ filename "//acs.uwinnipeg.ca/Data/Students/Graduate/lowdon-r58/repositories/thes
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch chapter-3
+inverted 0
+status open
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapter-2.lyx"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
