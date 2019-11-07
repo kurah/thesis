@@ -202,6 +202,36 @@ The first step for me was to create a deep neural network training pipeline
  which would be used to maximize my efficiency in terms of training deep
  neural network models and keeping all necessary data from each training
  run.
+ This pipeline is designed as an end to end pipeline and it covers the following
+ main points:
+\end_layout
+
+\begin_layout Itemize
+Images are taken by a GoPro attached to an XYZ gantry system
+\end_layout
+
+\begin_layout Itemize
+These images are sent to our storage server
+\end_layout
+
+\begin_layout Itemize
+The images are then inserted into the database along with any relevant metadata
+\end_layout
+
+\begin_layout Itemize
+There is a utility to query out a subset of the dataset
+\end_layout
+
+\begin_layout Itemize
+This subset is then used to train a deep neural network for inference
+\end_layout
+
+\begin_layout Itemize
+The trained model is saved to disk after completion
+\end_layout
+
+\begin_layout Itemize
+The trained model is then used for inference examples
 \end_layout
 
 \begin_layout Section
