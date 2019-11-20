@@ -76,11 +76,13 @@
 \begin_body
 
 \begin_layout Title
-Precision Agriculture Pipeline and Dataset Research Questions
+Thesis: Precision Agriculture Pipeline and Dataset Research Questions
 \end_layout
 
 \begin_layout Author
-Reid Lowdon
+Reid C.
+ S.
+ Lowdon
 \end_layout
 
 \begin_layout Date
@@ -133,19 +135,7 @@ In deep learning models are trained using labelled datasets on the order
  We built a system that will allow us to build our own datasets and thus
  we have full control over what the datasets are comprised of.
  This puts our group in a unique position as we can manipulate at the dataset
- level; if we find that certain angles are better than others we can adjust
- for that, if we find that plants generally look the same at the beginning
- of their life cycle and it turns out that weighting the image quantity
- to have more at the beginning of the life cycle and less towards the end
- may be useful as well.
-\end_layout
-
-\begin_layout Section
-Study Area
-\end_layout
-
-\begin_layout Standard
-Study area details will go here
+ level.
 \end_layout
 
 \begin_layout Section
@@ -193,16 +183,116 @@ https://thehive.ai/engineering/effect-of-dirty-data-on-deep-learning
 \end_deeper
 \end_deeper
 \end_deeper
+\begin_layout Subsection
+Impacts of Dirty Data
+\end_layout
+
+\begin_layout Standard
+Ensuring a data set is clean is the first step in utilizing a data set for
+ training and is a very important first step to ensuring your models produce
+ the results you are anticipating.
+ From my research, I founnd it very difficult to find documents detailing
+ research on the effects of dirty data on the accuracy of a neural network
+ model.
+ Thus, in this thesis I have conducted experiments to compare the effects
+ of a dirty data set on several deep neural network architectures.
+\end_layout
+
+\begin_layout Standard
+It is quite intuitive to think that if a data set contained dirty data,
+ that data set would cause a model to have lower accuracy than a data set
+ that does not contain dirty data.
+\end_layout
+
 \begin_layout Section
 Deep Neural Network Training Pipeline
 \end_layout
 
 \begin_layout Standard
-The first step for me was to create a deep neural network training pipeline
- which would be used to maximize my efficiency in terms of training deep
- neural network models and keeping all necessary data from each training
- run.
- This pipeline is designed as an end to end pipeline and it covers the following
+The first step was to create a deep neural network training pipeline which
+ would be used to maximize my efficiency in terms of training deep neural
+ network models and keeping all necessary data from each training run.
+ This pipeline must be robust enough so that I can setup several consecutive
+ training runs without having to build each piece manually every time.
+ This includes querying a dataset using SQL from the main database, building
+ that labeled dataset into an appropriate format for a given deep neural
+ network architecture, load the dataset into the network, and execute the
+ training function for a given number of epochs.
+\end_layout
+
+\begin_layout Subsection
+Gantry System
+\end_layout
+
+\begin_layout Standard
+Details regarding the gantry system maybe (not sure because Michael did
+ this part, not me)
+\end_layout
+
+\begin_layout Subsection
+Camera
+\end_layout
+
+\begin_layout Standard
+Details regarding the camera system maybe (again, Michael did this part
+ not me)
+\end_layout
+
+\begin_layout Subsection
+Database
+\end_layout
+
+\begin_layout Standard
+I chose to use Microsoft SQL Server 2017 primarily because it allowed me
+ to use the FILESTREAM data type.
+\end_layout
+
+\begin_layout Subsubsection
+FILESTREAM
+\end_layout
+
+\begin_layout Subsection
+Dataset Export Utility
+\end_layout
+
+\begin_layout Standard
+Details regarding the export utility that I created
+\end_layout
+
+\begin_layout Subsection
+HDF5 Files
+\end_layout
+
+\begin_layout Standard
+Details regarding why I decided to use hdf5 files for creating datasets
+\end_layout
+
+\begin_layout Subsection
+Loading Data Into Models
+\end_layout
+
+\begin_layout Standard
+How I load the datasets into the neural network models for training
+\end_layout
+
+\begin_layout Subsection
+Training Models
+\end_layout
+
+\begin_layout Standard
+How the training process works
+\end_layout
+
+\begin_layout Subsection
+Executing the Models (NVIDIA Jetson Nano)
+\end_layout
+
+\begin_layout Standard
+Packaging and using the trained models on an NVIDIA Jetson Nano
+\end_layout
+
+\begin_layout Standard
+This pipeline is designed as an end to end pipeline and it covers the following
  main points:
 \end_layout
 
@@ -307,6 +397,16 @@ Conclusion
 
 \begin_layout Standard
 A concluding paragraph or few will go here
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
