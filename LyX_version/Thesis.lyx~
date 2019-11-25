@@ -367,10 +367,21 @@ All of these are true for our project, our master images are between 2.09
 Dataset Export Utility
 \end_layout
 
-\begin_layout Standard
-Details regarding the export utility that I created
+\begin_layout Itemize
+Wrote this utility to allow users to query subsets out of the main dataset
+ stored in the database without having to write their own SQL
 \end_layout
 
+\begin_layout Itemize
+Flow
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Asks if you have a SQL string you would like executed
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 HDF5 Files
 \end_layout
@@ -404,6 +415,10 @@ Packaging and using the trained models on an NVIDIA Jetson Nano
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 This pipeline is designed as an end to end pipeline and it covers the following
  main points:
 \end_layout
@@ -436,8 +451,17 @@ The trained model is saved to disk after completion
 The trained model is then used for inference examples
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Methodology
+\end_layout
+
+\begin_layout Subsection
+Dirty Data Experiment
 \end_layout
 
 \begin_layout Itemize
@@ -471,6 +495,10 @@ Setup a script to iterate through this training, have a folder containing
 
 \end_deeper
 \end_deeper
+\begin_layout Subsection
+Data Quantity Experiment
+\end_layout
+
 \begin_layout Itemize
 Need to set up an experiment where I train models using certain percentages
  of the main dataset 
