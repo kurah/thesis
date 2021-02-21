@@ -277,55 +277,17 @@ convolutional neural network
 \begin_inset Quotes erd
 \end_inset
 
- is, how they function, and differ from a standard neural network
+ is and how they function and differ from a standard neural network
 \end_layout
 
 \begin_layout Section
 What is a Deep Convolutional Neural Network?
 \end_layout
 
-\begin_layout Itemize
-Information regarding what a 
-\begin_inset Quotes eld
-\end_inset
-
-deep convolutional neural network
-\begin_inset Quotes erd
-\end_inset
-
-, how they function, and how they differ from a standard convolutional neural
- network
-\end_layout
-
 \begin_layout Chapter
 Existing Architectures
 \end_layout
 
-\begin_layout Itemize
-In this section I will talk about:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The architectures I investigated (pros and cons)
-\end_layout
-
-\begin_layout Itemize
-Why I chose the architecture that I chose (probably DenseNet)
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Information about each architecture in detail
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-How it's built (what it's layers are, how they function, general information
- about the architecture)
-\end_layout
-
-\end_deeper
 \begin_layout Section
 DenseNet
 \end_layout
@@ -340,90 +302,6 @@ GoogleNet
 
 \begin_layout Section
 VGG16 & VGG19
-\end_layout
-
-\begin_layout Chapter
-Implementation
-\end_layout
-
-\begin_layout Section
-Dataset Acquisition
-\end_layout
-
-\begin_layout Itemize
-Talk about the gantry system here and how we have obtained the dataset that
- I am working with
-\end_layout
-
-\begin_layout Section
-Data Preparation and Augmentation
-\end_layout
-
-\begin_layout Itemize
-What did I do to prepare the dataset in order to reduce bias, ensure that
- the data is clean, transformations, everything I did to manipulate the
- data for my experiments
-\end_layout
-
-\begin_layout Section
-Experiment Setup
-\end_layout
-
-\begin_layout Itemize
-Specifics on the hardware that was utilized
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Ask Chris if I should include my own hardware here as I am initializing
- my experiments on my personal machine
-\end_layout
-
-\begin_layout Itemize
-Include details about the server that I use at school
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Also mention the learning rates, number of epochs, which optimization algorithm
-\end_layout
-
-\begin_layout Chapter
-Results and Analysis
-\end_layout
-
-\begin_layout Section
-Evaluation Metrics
-\end_layout
-
-\begin_layout Itemize
-Talk about how accuracy was calculated (provide formula)
-\end_layout
-
-\begin_layout Section
-Quantitave Results and Comparisons
-\end_layout
-
-\begin_layout Itemize
-Include tables showing the accuracies of each architecture I trained and
- used for inference
-\end_layout
-
-\begin_layout Section
-Qualitative Results and Comparisons
-\end_layout
-
-\begin_layout Itemize
-Discuss the results and if possible have samples from each network as a
- visual comparison
-\end_layout
-
-\begin_layout Section
-Summary
-\end_layout
-
-\begin_layout Chapter
-Conclusions
 \end_layout
 
 \end_body
