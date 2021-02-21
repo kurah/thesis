@@ -465,7 +465,8 @@ Dirty Data Experiment
 \end_layout
 
 \begin_layout Itemize
-Trained several models on our dataset to get a baseline of accuracy
+Trained several ResNet and VGG16 models on our dataset to get a baseline
+ of accuracy
 \end_layout
 
 \begin_layout Itemize

@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass scrbook
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -29,6 +29,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -44,6 +45,7 @@
 \use_package undertilde 1
 \cite_engine basic
 \cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -415,6 +417,10 @@ Packaging and using the trained models on an NVIDIA Jetson Nano
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 This pipeline is designed as an end to end pipeline and it covers the following
  main points:
 \end_layout
@@ -447,12 +453,22 @@ The trained model is saved to disk after completion
 The trained model is then used for inference examples
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Methodology
 \end_layout
 
+\begin_layout Subsection
+Dirty Data Experiment
+\end_layout
+
 \begin_layout Itemize
-Trained several models on our dataset to get a baseline of accuracy
+Trained several ResNet and VGG16 models on our dataset to get a baseline
+ of accuracy
 \end_layout
 
 \begin_layout Itemize
@@ -482,6 +498,10 @@ Setup a script to iterate through this training, have a folder containing
 
 \end_deeper
 \end_deeper
+\begin_layout Subsection
+Data Quantity Experiment
+\end_layout
+
 \begin_layout Itemize
 Need to set up an experiment where I train models using certain percentages
  of the main dataset 
