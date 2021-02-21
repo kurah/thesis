@@ -241,7 +241,7 @@ Foundations
 \end_layout
 
 \begin_layout Section
-What is Artificial Intelligence?
+Artificial Intelligence
 \end_layout
 
 \begin_layout Itemize
@@ -249,7 +249,7 @@ Starting with this section may be too broad, talk to Chris about this
 \end_layout
 
 \begin_layout Section
-What is a Neural Network?
+Neural Network
 \end_layout
 
 \begin_layout Itemize
@@ -265,7 +265,7 @@ neural network
 \end_layout
 
 \begin_layout Section
-What is a Convolutional Neural Network?
+Convolutional Neural Network
 \end_layout
 
 \begin_layout Itemize
@@ -281,7 +281,7 @@ convolutional neural network
 \end_layout
 
 \begin_layout Section
-What is a Deep Convolutional Neural Network?
+Deep Convolutional Neural Network
 \end_layout
 
 \begin_layout Itemize
@@ -401,12 +401,12 @@ Talk about how accuracy was calculated (provide formula)
 \end_layout
 
 \begin_layout Section
-Quantitave Results and Comparisons
+Quantitative Results and Comparisons
 \end_layout
 
 \begin_layout Itemize
-Include tables showing the accuracies of each architecture I trained and
- used for inference
+Include tables showing the accuracy of each architecture I trained and used
+ for inference
 \end_layout
 
 \begin_layout Section
@@ -424,18 +424,6 @@ Summary
 
 \begin_layout Chapter
 Conclusions
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "biblatex-examples"
-options "bibtotoc,plain"
-
-\end_inset
-
-
 \end_layout
 
 \end_body

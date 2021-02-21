@@ -401,12 +401,12 @@ Talk about how accuracy was calculated (provide formula)
 \end_layout
 
 \begin_layout Section
-Quantitave Results and Comparisons
+Quantitative Results and Comparisons
 \end_layout
 
 \begin_layout Itemize
-Include tables showing the accuracies of each architecture I trained and
- used for inference
+Include tables showing the accuracy of each architecture I trained and used
+ for inference
 \end_layout
 
 \begin_layout Section
