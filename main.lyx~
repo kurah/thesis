@@ -431,7 +431,7 @@ Conclusions
 LatexCommand bibtex
 btprint "btPrintAll"
 bibfiles "BibTeX/Thesis-Useful"
-options "plain"
+options "bibtotoc,plain"
 
 \end_inset
 
